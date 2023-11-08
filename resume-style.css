@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    color: white;
+    font-family: 'Itim', cursive;
+}
+table{
+    border: 3px dashed white;
+    min-width: 60%;
+    margin: auto;
+    background-color: blue ;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+}
+th:nth-child(1){
+    background-color: #99f6e4;
+    color: black;
+    padding: 20px;
+}
+
+
+th:nth-child(1)::before{
+   content: '✣'; 
+}
+
+tr th{
+    background-color: #fbcfe8    ;
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+}
+td+th::after{
+    content: " (Update!)";
+    color: #e11d48;
+}
+body{
+    background-color:#0a0a0a ;
+}
+
+ul{
+    
+    border-radius: 15px;
+    padding: 20px;
+}
+
+tbody{
+    background-color: blue;
+}
+image{
+    background-color:#bfdbfe ;
+    margin: auto;
+}
+tr{
+    padding: 0;
+    margin: 0;
+}
+
+li:hover{  
+  background-color: #3b82f6;
+  width: fit-content;
+}
+li:active {
+    color: #3b82f6 ;
+}
+
+td ul li:nth-child(4){
+    background-color: #e11d48 ;
+    width: fit-content;
+
+}
+td ul li:nth-child(4):hover{
+    background-color: #60a5fa ;
+    color: white;
+    width: fit-content;
+}
+
+[rowspan = '2']{
+    background-color: #bfdbfe;
+    border-radius: 25px;
+    width: 60%;
+    text-align: center;
+}
+ 
+img{
+    border-radius: 25px;
+}   
+td{
+    border: 3px dashed pink;
+    border-radius: 20px;
+}
+
+li:nth-child(1)::first-letter{
+    background-color:#e11d48 ;
+}
+li:hover:nth-child(1)::first-letter{
+    background-color:#3b82f6 ;
+}
+li:hover:nth-child(1){
+    background-color:#3b82f6 ;
+    color: white ;
+    width: fit-content;
+}
+
+
+
+
+
+
+
+
